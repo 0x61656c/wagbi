@@ -1,0 +1,117 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+            integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <br>
+        <div class="row">
+            <div class="col-8 offset-2">
+                <h3>ConstitutionDao Explanation Generator</h3>
+                <p>The easiest way to explain to your friends and family that in 6 days you'll own a piece of the US
+                    constitution</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-8 offset-2">
+
+                <br>
+                <div class="form-group">
+                    <p>Tone</p>
+                    <select name="tone" id="tone" class="inputs">
+                        <option value="" disabled selected>Select one</option>
+                        <option value="w3">Web 3</option>
+                        <option value="aggresive" selected>I'm Right</option>
+                        <option value="autist">Ape</option>
+                    </select>
+                </div>
+                <br>
+
+                <div class="form-group">
+                    <p>Length</p>
+                    <select name="length" id="length" class="inputs">
+                        <option value="short">Short</option>
+                        <option value="medium" selected>Medium</option>
+                        <option value="twitter">Twitter Thread</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-8 offset-2">
+                <div style="background-color: #e8e8e8; padding: 15px;">
+                    <h5>Your explanation:</h5>
+                    <textarea class="form-control" id="explanation"
+                        rows="10">😤✋🛑 Anyone 👯‍♀️  who ⛄️  doesn't 🙅🏻‍♀️ own 📥  an on 🍆 chain ⛓ fractionalized 💦 piece 🧩 of a 🍑 copy 🖨 of the US 🇺🇸 constitution 📜  has the iq 🧠 of a bowl 🍜 of oatmeal 🌾</textarea>
+                </div>
+            </div>
+        </div>
+
+    </body>
+    <footer>
+        <script>
+            $(".inputs").change(function () {
+                var tone = $("#tone").val();
+                var length = $("#length").val();
+                console.log(tone);
+                console.log(length);
+
+                if (tone == "w3") {
+                    if (length == "short") {
+                        var output = "WAGBI (📜,📜) -> we (my internet friends and i) are gonna buy it (the us constitution)";
+                    } else if (length == "medium") {
+                        var output = "In six days I'll will own a fractionalized piece of the united states' constitution via ConstitutionDao (📜,📜)."
+                    } else if (length == "twitter") {
+                        var output = "A DAO is buying and fractionalizing an original copy of the US Constitution. Here's a quick thread on why this is the future 👇🧵 (1/102928)"
+                    }
+                } else if (tone == "aggresive") {
+                    if (length == "short") {
+                        var output = "WAGBI (📜,📜) -> we (my internet friends and i) are gonna burn it (the us constitution) 🔥"
+                    } else if (length == "medium") {
+                        var output = "😤✋🛑 Anyone 👯‍♀️  who ⛄️  doesn't 🙅🏻‍♀️ own 📥  an on 🍆 chain ⛓ fractionalized 💦 piece 🧩 of a 🍑 copy 🖨 of the US 🇺🇸 constitution 📜  has the iq 🧠 of a bowl 🍜 of oatmeal 🌾"
+                    } else if (length == "twitter") {
+                        var output = "Here's a quick thread on why you're better off buying a fractionalized piece of the constitution than fucking a corpse (1/📜) 🧵"
+                    }
+                } else if (tone == "autist") {
+                    if (length == "short") {
+                        var output = "WAGEI (📜,📜) -> we (my internet friends and i) are gonna eat it (the us constitution) 🍞"
+                    } else if (length == "medium") {
+                        var output = "🚀🌙 (📜,📜) Just aped into a new drop where we're cutting the constitution into a thousand pieces and lacing it with LSD (📜,📜)"
+                    } else if (length == "twitter") {
+                        var output = "Here's why I just aped my entire life savings into a 250 year old document -> 🧵 (1/📜)"
+                    }
+                }
+
+
+                $("#explanation").val(output)
+
+            })
+        </script>
+    </footer>
+
+</html>
+
+<!-- 
+    Explanations: 
+
+    Web3 Autist
+        Short: WAGBI (📜,📜) -> we (my internet friends and i) are gonna buy it (the us constitution)
+        Medium: In six days {#name} will own a fractionalized piece of the united states' constitution via ConstitutionDao (📜,📜)
+        Twitter: A DAO is buying and fractionalizing an original copy of the US Constitution. Here's a quick thread on why this is the future 👇🧵 (1/102928)
+    Aggressive
+        Short: WAGBI (📜,📜) -> we (my internet friends and i) are gonna burn it (the us constitution) 🔥
+        Medium: Anyone who doesn't own an on chain fractionalized piece of a copy of the US constitution has the iq of a bowl of oatmeal
+        Twitter: Here's a quick thread on why you're better off buying a fractionalized piece of the constitution than fucking a corpse (1/📜) 🧵
+    Ape
+        Short: WAGBI (📜,📜) -> we (my internet friends and i) are gonna buy it (the us constitution)
+        Medium: 🌙 (📜,📜) Just aped into a new drop where we're cutting the constitution into a thousand pieces and lacing it with LSD (📜,📜)
+        Twitter: Here's why I just aped my entire life savings into a 250 year old document -> 🧵 (1/📜)
+-->
