@@ -1,3 +1,4 @@
 # wagbi
 The easiest way to explain to your friends and family that you might soon be the proud owner of a piece of the US Constitution. Made for ConstitutionDao (📜,📜)
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/ConstitutionDAO?ref_src=twsrc%5Etfw">@ConstitutionDAO</a> I made this for you 🥺👉👈<a href="https://t.co/20DTWY3cGd">https://t.co/20DTWY3cGd</a></p>&mdash; ael is buying the us constitution (📜, 📜 ) (@0x61656c) <a href="https://twitter.com/0x61656c/status/1459296979616292865?ref_src=twsrc%5Etfw">November 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+https://twitter.com/0x61656c/status/1459296979616292865?s=20
